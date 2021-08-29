@@ -71,6 +71,7 @@ npm install webpack webpack-cli --save-dev
 - `path` 내장 모듈을 사용한다.
 
   - `resolve` 함수로 두 파라미터를 연결한다.
+  
   - `__dirname` 은 현재 파일의 위치의 절대 경로 값이다.
 
 - `clean` 속성은 결과물을 내기 전에 파일을 지운다는 의미이다.
