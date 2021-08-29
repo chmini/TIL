@@ -83,7 +83,9 @@ npm install webpack webpack-cli --save-dev
 - 각각의 파일 종류에 따라 어떤 변환을 할 것인가를 결정한다.
 
   - `rule`은 속성 2가지를 가진다.
+  
     - `test` : 어떤 파일을 변환할 것인가
+
     - `use` : 어떤 `loader`를 사용하여 변환할 것인가  
 
 
