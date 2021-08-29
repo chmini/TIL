@@ -48,7 +48,7 @@ npm install webpack webpack-cli --save-dev
 
   - 위치는 절대 경로를 통한 위치를 의미한다.
   - ![error code img](./img/img 1.PNG)
-  - 절대경로를 쓰지 않으면 위와 같은 에러를 볼 수 있다.
+  - 절대경로를 쓰지 않으면 위와 같은 에러를 볼 수 있다.  
 
   ```javascript
   const path = require("path");
@@ -80,7 +80,7 @@ npm install webpack webpack-cli --save-dev
 
   - `rule`은 속성 2가지를 가진다.
     - `test` : 어떤 파일을 변환할 것인가
-    - `use` : 어떤 `loader`를 사용하여 변환할 것인가
+    - `use` : 어떤 `loader`를 사용하여 변환할 것인가  
 
   ```javascript
   module.exports = {
