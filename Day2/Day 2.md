@@ -140,7 +140,7 @@ npm install webpack webpack-cli --save-dev
 
 - **잠깐 !**  - **Babel ?**
 
-  - `babel` 은 자바스크립트의 최신 문법 코드를 사용할 수 있게 해주는 플러그 인
+  - `babel` 은 자바스크립트의 최신 문법 코드를 사용할 수 있게 해주는 플러그 인  
 
 
   ```bash
