@@ -143,9 +143,9 @@ npm install webpack webpack-cli --save-dev
   - `babel` 은 자바스크립트의 최신 문법 코드를 사용할 수 있게 해주는 플러그 인  
 
 
-  ```bash
-  npm install @babel/core @babel/preset-env --save-dev
-  ```
+    ```bash
+    npm install @babel/core @babel/preset-env --save-dev
+    ```
 
 
 
