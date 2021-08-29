@@ -47,7 +47,7 @@ npm install webpack webpack-cli --save-dev
 - 결과물의 위치 지정 ```path``` 과 파일명 `filename `을 정한다.
 
   - 위치는 절대 경로를 통한 위치를 의미한다.
-  - ![error code img](./Day 2 img 1.PNG)
+  - ![error code img](./img/img 1.PNG)
   - 절대경로를 쓰지 않으면 위와 같은 에러를 볼 수 있다.
 
   ```javascript
