@@ -179,11 +179,9 @@ npm install webpack webpack-cli --save-dev
 
   ```json
   {
-      ...
       "scripts": {
           "dev:assets" : "webpack --mode=[MODE]"
       }
-      ...
   }
   ```
 
