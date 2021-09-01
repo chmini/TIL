@@ -10,9 +10,7 @@
 
 원활한 개발 환경을 위해서 설정부터 해주었다.
 
-**Day 2** 에 공부했던 `webpack` 을 해주었다. 자세한 것은 아래 링크 참고 !
-
-Link:(https://github.com/chmini/TIL/Day2)
+**Day 2** 에 공부했던 `webpack` 을 해주었다. Day 2 TIL 참고.
 
 그리고 개발 서버는 `node.js` 환경의 가장 간단하다고 생각하는 `http-server` 를 사용했다.
 
