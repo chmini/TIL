@@ -1,6 +1,7 @@
 ### 연습문제 2개/6개 풀이
 
 [자세한 문제 설명](https://classroom.google.com/c/Mzc3NTY5NzIwODUy/m/Mzg4MTU0NTA3MDA4/details)
+<br>
 [실습](https://replit.com/@chmini/practice)
 
 #### 1. 선생님의 실수
