@@ -13,7 +13,7 @@
 
 |         매개변수          | return type |
 | :-----------------------: | :---------: |
-| nums [ type : **array** ] |    array    |
+| nums [ type : **array** ] |    **array**    |
 
 **입출력 예시**
 
@@ -96,7 +96,7 @@ const solution = (nums) => {
 
 |   매개변수   | return type |
 | :----------: | :---------: |
-| puzzle, word |   boolean   |
+| puzzle [ type : **array** ] , word [ type : **string** ] |   **boolean**   |
 
 **입출력 예시**
 
