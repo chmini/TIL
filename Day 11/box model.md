@@ -1,6 +1,6 @@
 ### Box Model
 
-![box model](./box model.png) 
+    ![box model](./box model.PNG) 
 
 `content`  : `content` 가 표시되는 영역을 말한다.
 
