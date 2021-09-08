@@ -48,7 +48,7 @@ npm install webpack webpack-cli --save-dev
 
   - 위치는 절대 경로를 통한 위치를 의미한다.
 
-  - ![error code img](./img/img 1.PNG)
+  - ![error code img](https://github.com/chmini/TIL/Day2/img/img 1.PNG)
 
   - 절대경로를 쓰지 않으면 위와 같은 에러를 볼 수 있다.  
   
