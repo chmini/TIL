@@ -1,6 +1,6 @@
 ### Box Model
 
-![box model](./box model.PNG)
+![box model](https://github.com/chmini/TIL/blob/master/Day%2011/box%20model.PNG)
 
 `content`  : `content` 가 표시되는 영역을 말한다.
 
