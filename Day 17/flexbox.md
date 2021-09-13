@@ -260,7 +260,7 @@
 
 `flex-shrink` 는 찌그러질 때 `item` 들의 찌그러지는 비율을 설정할 수 있다.
 
-![before shirnk](./img/before shrink.PNG)
+![before shirnk](./img/before%20shrink.PNG)
 
 위 그림은 `width` 가 `300px` 인 `item` 3개를 가진 `flexbox` 이다.
 
@@ -273,7 +273,7 @@
 }
 ```
 
-![after shrink](./img/after shrink.PNG)
+![after shrink](./img/after%20shrink.PNG)
 
 <br>
 
