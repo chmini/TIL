@@ -1,5 +1,7 @@
 ### flexbox
 
+[`flexbox` 연습을 위한 링크](https://flexboxfroggy.com/#ko)
+
 `flexbox` 는 컨테이너 내의 아이템을 어디에 위치 시킬지 어떻게 정렬할지를 정할 수 있다.
 
 1차원 레이아웃 모델이다.
