@@ -254,6 +254,36 @@
 
 <br>
 
+#### align-content
+
+`align-content` 는 `flex-wrap` 을 통해서 2줄이상이 생겼을 때 줄 간의 정렬상태를 지정한다.
+
+값으로는 `stretch` `flex-start` `flex-end` `center` `space-between` `space-around` 를 가질 수 있다.
+
+`align-content` 는 `cross-axis` 에 따른 정렬이다.
+
+`stretch` 는 기본 값으로 `container` 의 크기에 따라 달라지는데 `align-items` 와 비슷하게 작동한다.
+
+![content stretch](./img/content_stretch.PNG)
+
+`flex-start` 는 `container` 에서 `cross-axis` 의 시작점을 기준으로 정렬하고 `flex-end` 는 끝점을 기준으로 정렬한다.
+
+![content flex-start](./img/content_flex_start.PNG)
+
+![content flex-end](./img/content_flex_end.PNG)
+
+`center` 는 `container` 에서 가운데 정렬이다.
+
+![content center](./img/content_center.PNG)
+
+`space-between` `space-around` 의 작동은 `justify-content` 를 생각하면 쉽다. 하지만 기준이 되는 `axis` 는 다르니 주의하자.
+
+![content space-between](./img/content_space_between.PNG)
+
+![content space-around](./img/content_space_around.jpg)
+
+<br>
+
 #### flex-shirnk
 
 `flex-wrap` 에서 본 것 처럼 `flexbox` 는 1차원이기 때문에 찌그러지는 경우가 발생한다.
