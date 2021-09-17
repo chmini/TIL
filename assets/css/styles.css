@@ -4,10 +4,13 @@ body {
 }
 
 header {
+    width: 100vw;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    position: fixed;
+    padding: 1.2rem 1.7rem;
     border-bottom: 1px solid #ddd;
 }
 
@@ -15,14 +18,101 @@ header {
     font-size: 1.5rem;
 }
 
-.navbar-link i {
-    font-size: 0.8rem;
+.title-text::after {
+    content: "Today I Learned";
+    animation: increaseTitle 1s linear 0.5s backwards;
 }
 
-.navbar-link img {
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item {
+    margin-left: 20px;
+}
+
+.navbar-item svg {
     width: 0.8rem;
+    color: #555;
 }
 
-.sidebar {
-    padding: 1.5rem;
+.navbar-item.menu-btn {
+    cursor: pointer;
+}
+
+.navbar-item .line {
+    width: 20px;
+    height: 2px;
+    display: block;
+    margin: 4px;
+    background-color: #555;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-item.menu-btn.active .line:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+
+.navbar-item.menu-btn.active .line:nth-child(2) {
+    opacity: 0;
+}
+
+.navbar-item.menu-btn.active .line:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+}
+
+main {
+    /* heaser test scroll */
+    height: 200vh;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 9px;
+    opacity: 1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #bfbfbf;
+    background-clip: padding-box;
+    border: 3px solid transparent;
+}
+
+@media screen and (max-width: 425px) {
+    .title-text::after {
+        content: "TIL";
+        animation: reduceTitle 1s linear 0.5s backwards;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-item.github-link {
+        display: none;
+    }
+}
+
+@keyframes reduceTitle {
+    0% {
+        content: "Today I Learned";
+    }
+    50% {
+        color: white;
+    }
+    100% {
+        content: "TIL";
+    }
+}
+
+@keyframes increaseTitle {
+    0% {
+        content: "TIL";
+    }
+    50% {
+        color: white;
+    }
+    100% {
+        content: "Today I Learned";
+    }
 }
