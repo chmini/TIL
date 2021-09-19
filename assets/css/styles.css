@@ -64,8 +64,11 @@ header {
 }
 
 main {
-    /* heaser test scroll */
+    /* header test | scroll */
     height: 200vh;
+
+    display: grid;
+    grid-template-columns: 300px 1fr;
 }
 
 /* scrollbar */
@@ -89,6 +92,12 @@ main {
 
 @media screen and (max-width: 768px) {
     .navbar-item.github-link {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-item.menu-btn {
         display: none;
     }
 }
