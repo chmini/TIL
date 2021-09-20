@@ -1,5 +1,12 @@
-const menuBtn = document.querySelector(".menu-btn");
+const getMenuBtn = async () => {
+    const menuBtn = await document.querySelector(".menu-btn");
+};
 
-menuBtn.addEventListener("click", () => {
+const menuBtn = getMenuBtn();
+menuBtn.then((res) => console.log(res));
+
+/*
+.addEventListener("click", () => {
     menuBtn.classList.toggle("active");
 });
+*/
