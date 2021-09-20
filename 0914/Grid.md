@@ -35,7 +35,7 @@
 }
 ```
 
-![grid-template-columns](./img/grid_template_columns.PNG)
+![grid-template-columns](./img/grid_template_columns.png)
 
 #### grid-template-rows
 
@@ -55,7 +55,7 @@ body {
 }
 ```
 
-![grid-template-rows](./img/grid_template_rows.PNG)
+![grid-template-rows](./img/grid_template_rows.png)
 
 위 그림처럼 똑같은 값을 가지는 그리드는 `repeat()` 이라는 함수를 사용할 수도 있다.
 
@@ -85,7 +85,7 @@ body {
 }
 ```
 
-![row-gap](./img/row_gap.PNG)
+![row-gap](./img/row_gap.png)
 
 #### column-gap
 
@@ -100,7 +100,7 @@ body {
 }
 ```
 
-![column-gap](./img/column_gap.PNG)
+![column-gap](./img/column_gap.png)
 
 #### gap
 
@@ -117,7 +117,7 @@ body {
 }
 ```
 
-![gap](./img/gap.PNG)
+![gap](./img/gap.png)
 
 <br>
 
@@ -159,7 +159,7 @@ body {
 }
 ```
 
-![grid-template-areas](./img/grid_template_areas.PNG)
+![grid-template-areas](./img/grid_template_areas.png)
 
 #### grid row and column
 
@@ -177,11 +177,11 @@ body {
 
 위의 컨테이너는 `4x4` 크기의 아래 그림과 같은 모양을 가진다.
 
-![gird-4x4](./img/grid_4x4.PNG)
+![gird-4x4](./img/grid_4x4.png)
 
 여기에 `item` 4개를 추가하면 이런 모양이다.
 
-![grid add items](./img/grid_add_items.PNG)
+![grid add items](./img/grid_add_items.png)
 
 이제 각 `item` 에 차지할 공간을 줄 것이다.
 
@@ -219,7 +219,7 @@ body {
 }
 ```
 
-![grid row and column](./img/grid_row_and_column.PNG)
+![grid row and column](./img/grid_row_and_column.png)
 
 완성하고 보니 코드가 꽤나 지저분하고 복잡하다고 느낄 수 있다.
 
@@ -296,13 +296,13 @@ body {
 }
 ```
 
-![grid justify-items](./img/grid_justify_items.PNG)
+![grid justify-items](./img/grid_justify_items.png)
 
 위 예시는 `justify-items` 값을 `center` 로 주어 가로 기준으로 가운데 정렬이 된 것을 볼 수 있다.
 
 만약에 `align-items` 도 `center` 를 주면 아래처럼 보인다.
 
-![grid justify and align items](./img/grid_justify_and_align_items.PNG)
+![grid justify and align items](./img/grid_justify_and_align_items.png)
 
 <br>
 
@@ -333,7 +333,7 @@ body {
 }
 ```
 
-![grid content](./img/grid_content.PNG)
+![grid content](./img/grid_content.png)
 
 <br>
 
@@ -351,7 +351,7 @@ body {
 }
 ```
 
-![grid 4x4 100px](./img/grid_4x4_100.PNG)
+![grid 4x4 100px](./img/grid_4x4_100.png)
 
 이 `item` 들의 처리를 `grid-auto-columns` 와 `grid-auto-rows` 로 할 수 있다.
 
@@ -366,7 +366,7 @@ body {
 }
 ```
 
-![grid-auto-rows](./img/grid_auto_rows.PNG)
+![grid-auto-rows](./img/grid_auto_rows.png)
 
 <br>
 
@@ -390,7 +390,7 @@ body {
 }
 ```
 
-![grid auto flow column](./img/grid_auto_flow_column.PNG)
+![grid auto flow column](./img/grid_auto_flow_column.png)
 
 `dense` 는 배치 할 때 앞부분에 빈 공간이 생기면 뒤의 `item` 으로 채워넣는 방식을 말한다.
 
@@ -408,11 +408,11 @@ body {
 }
 ```
 
-![grid before dense](./img/before_dense.PNG)
+![grid before dense](./img/before_dense.png)
 
 이럴 때 저 앞 부분을 채워주는 방식이 `dense` 이다.
 
-![grid after dense](./img/after_dense.PNG)
+![grid after dense](./img/after_dense.png)
 
 <br>
 
@@ -429,7 +429,7 @@ body {
 }
 ```
 
-![min-content](./img/min_content.PNG)
+![min-content](./img/min_content.png)
 
 ```css
 .container {
@@ -438,7 +438,7 @@ body {
 }
 ```
 
-![max-content](./img/max_content.PNG)
+![max-content](./img/max_content.png)
 
 <br>
 
@@ -461,8 +461,8 @@ body {
 
 `auto-fill` 의 경우 아래처럼 빈 공간까지도 최대로 채운다.
 
-![auto-fill](./img/auto_fill.PNG)
+![auto-fill](./img/auto_fill.png)
 
 `auto-fit` 은 아래처럼 빈 공간을 찾아볼 수 없다.
 
-![auto-fit](./img/auto_fit.PNG)
+![auto-fit](./img/auto_fit.png)

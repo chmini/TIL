@@ -1,9 +1,5 @@
 ### 연습문제 2개/6개 풀이
 
-[자세한 문제 설명](https://classroom.google.com/c/Mzc3NTY5NzIwODUy/m/Mzg4MTU0NTA3MDA4/details)
-<br>
-[실습](https://replit.com/@chmini/practice)
-
 #### 1. 선생님의 실수
 
 **제한사항**
@@ -13,7 +9,7 @@
 
 |         매개변수          | return type |
 | :-----------------------: | :---------: |
-| nums [ type : **array** ] |    **array**    |
+| nums [ type : **array** ] |  **array**  |
 
 **입출력 예시**
 
@@ -94,9 +90,9 @@ const solution = (nums) => {
   - 좌우 가능
   - 대각선 불가능
 
-|   매개변수   | return type |
-| :----------: | :---------: |
-| puzzle [ type : **array** ] , word [ type : **string** ] |   **boolean**   |
+|                         매개변수                         | return type |
+| :------------------------------------------------------: | :---------: |
+| puzzle [ type : **array** ] , word [ type : **string** ] | **boolean** |
 
 **입출력 예시**
 

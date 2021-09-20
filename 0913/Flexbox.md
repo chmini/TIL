@@ -1,7 +1,5 @@
 ### flexbox
 
-[`flexbox` 연습을 위한 링크](https://flexboxfroggy.com/#ko)
-
 `flexbox` 는 컨테이너 내의 아이템을 어디에 위치 시킬지 어떻게 정렬할지를 정할 수 있다.
 
 1차원 레이아웃 모델이다.
@@ -51,7 +49,7 @@
 }
 ```
 
-![row](./img/row.PNG)
+![row](C:\Users\beelz\Documents\TIL\Day 17\img\row.PNG)
 
 <br>
 
@@ -62,7 +60,7 @@
 }
 ```
 
-![column](./img/column.PNG)
+![column](C:\Users\beelz\Documents\TIL\Day 17\img\column.PNG)
 
 <br>
 
@@ -73,7 +71,7 @@
 }
 ```
 
-![row-reverse](./img/row_reverse.PNG)
+![row-reverse](C:\Users\beelz\Documents\TIL\Day 17\img\row_reverse.PNG)
 
 <br>
 
@@ -84,7 +82,7 @@
 }
 ```
 
-![column-reverse](./img/column_reverse.PNG)
+![column-reverse](C:\Users\beelz\Documents\TIL\Day 17\img\column_reverse.PNG)
 
 <br>
 
@@ -106,7 +104,7 @@
 }
 ```
 
-![row space-between](./img/row_space_between.PNG)
+![row space-between](C:\Users\beelz\Documents\TIL\Day 17\img\row_space_between.PNG)
 
 <br>
 
@@ -122,7 +120,7 @@
 }
 ```
 
-![column space-between](./img/column_space_between.PNG)
+![column space-between](C:\Users\beelz\Documents\TIL\Day 17\img\column_space_between.PNG)
 
 이처럼 `main-axis` 가 어떤가에 따라 `justify-content` 의 값의 보이는 형태가 결정된다.
 
@@ -142,7 +140,7 @@
 }
 ```
 
-![row center](./img/row_center.PNG)
+![row center](C:\Users\beelz\Documents\TIL\Day 17\img\row_center.PNG)
 
 <br>
 
@@ -158,7 +156,7 @@
 }
 ```
 
-![column center](./img/column_center.PNG)
+![column center](C:\Users\beelz\Documents\TIL\Day 17\img\column_center.PNG)
 
 <br>
 
@@ -168,29 +166,29 @@
 
 `flex-start` 는 기본 값이다.
 
-![flex-start](./img/flex_start.PNG)
+![flex-start](C:\Users\beelz\Documents\TIL\Day 17\img\flex_start.PNG)
 
 `flex-end` 는 `main-axis` 의 끝으로 정렬한다.
 
-![flex-end](./img/flex_end.PNG)
+![flex-end](C:\Users\beelz\Documents\TIL\Day 17\img\flex_end.PNG)
 
 `center` 는 가운데 정렬이다.
 
-![center](./img/center.PNG)
+![center](C:\Users\beelz\Documents\TIL\Day 17\img\center.PNG)
 
 `space-between` 은 첫 번째 `item` 은 시작점에 마지막 `item` 은 끝점에 위치하고 나머지 아이템은 여백이 일정하게 정렬한다.
 
-![space-between](./img/space_between.PNG)
+![space-between](C:\Users\beelz\Documents\TIL\Day 17\img\space_between.PNG)
 
 `space-around` 는 모든 `item` 이 동일한 여백을 가지고 정렬된다.
 
 동일한 여백이라는 것은 `main-axis` 에 따라 만약 가로라면 각 `item` 의 좌우로 여백이 모두 존재한다.
 
-![space-around](./img/space_around.jpg)
+![space-around](C:\Users\beelz\Documents\TIL\Day 17\img\space_around.jpg)
 
 `space-evenly` 는 `item` 간의 모든 간격이 동일하다.
 
-![space-evenly](./img/space_evenly.PNG)
+![space-evenly](C:\Users\beelz\Documents\TIL\Day 17\img\space_evenly.PNG)
 
 <br>
 
@@ -198,7 +196,7 @@
 
 `stretch` 는 기본 값으로 `item` 의 길이가 정해지지 않고 `container` 가 `cross-axis` 에 해당하는 길이를 가지고 있다면 이 길이에 맞게 `item` 이 늘어난다는 의미이다.
 
-![stretch](./img/stretch.PNG)
+![stretch](C:\Users\beelz\Documents\TIL\Day 17\img\stretch.PNG)
 
 나머지 값들은 `justify-content` 와 비슷하게 작동한다.
 
@@ -210,7 +208,7 @@
 
 예를 들어 2번 아이템에 `center` 값을 주면 `cross-axis` 에 따라 컨테이너의 세로를 기준으로 가운데 정렬이 되는 것을 볼 수 있다.
 
-![self center](./img/self_center.PNG)
+![self center](C:\Users\beelz\Documents\TIL\Day 17\img\self_center.PNG)
 
 <br>
 
@@ -222,11 +220,11 @@
 
 만약 2번 `item` 을 가장 앞에 놓고 싶다면 기본 값이 `0` 이기 때문에  `-1` 을 주면 앞으로 온다.
 
-![order -1](./img/order_lt0.PNG)
+![order -1](C:\Users\beelz\Documents\TIL\Day 17\img\order_lt0.PNG)
 
 맨 뒤에 놓고 싶으면 `1` 을 주어 맨 뒤로 보낼 수 있다.
 
-![order 1](./img/order_gt0.PNG)
+![order 1](C:\Users\beelz\Documents\TIL\Day 17\img\order_gt0.PNG)
 
 <br>
 
@@ -238,19 +236,19 @@
 
 `item` 의 `width` 값을 다 합친 `1000px` 보다 브라우저를 작게 줄인다면 `item` 이 아래처럼 찌그러져 1차원을 벗어나지 않는다.
 
-![wrap 1](./img/wrap_1.PNG)
+![wrap 1](C:\Users\beelz\Documents\TIL\Day 17\img\wrap_1.PNG)
 
 그림으로도 확인이 어려우니 개발자 도구로 확인하면 `188px` 로 찌그러졌다.
 
-![wrap 2](./img/wrap_2.PNG)
+![wrap 2](C:\Users\beelz\Documents\TIL\Day 17\img\wrap_2.PNG)
 
 이를 방지하기 위해서 `wrap` 이라는 값을 주면 아래처럼 찌그러지지 않고 다음 줄로 넘겨준다.
 
-![wrap 3](./img/wrap_3.PNG)
+![wrap 3](C:\Users\beelz\Documents\TIL\Day 17\img\wrap_3.PNG)
 
 `wrap` 말고 `wrap-reverse` 값도 가질 수 있는데 이것은 아래처럼 반대로 정렬해준다.
 
-![wrap-reverse](./img/wrap_reverse.PNG)
+![wrap-reverse](C:\Users\beelz\Documents\TIL\Day 17\img\wrap_reverse.PNG)
 
 기본 값은 찌그러지는 상태로 `nowrap` 이다.
 
@@ -292,7 +290,7 @@
 
 `flex-shrink` 는 찌그러질 때 `item` 들의 찌그러지는 비율을 설정할 수 있다.
 
-![before shirnk](./img/before%20shrink.PNG)
+![before shirnk](C:\Users\beelz\Documents\TIL\Day 17\img\before shrink.PNG)
 
 위 그림은 `width` 가 `300px` 인 `item` 3개를 가진 `flexbox` 이다.
 
@@ -305,7 +303,7 @@
 }
 ```
 
-![after shrink](./img/after%20shrink.PNG)
+![after shrink](C:\Users\beelz\Documents\TIL\Day 17\img\after shrink.PNG)
 
 <br>
 
@@ -315,7 +313,7 @@
 
 2번 `item` 에 값을 양수의 아무 값을 주고 나머지는 값을 주지 않는다면 늘릴 수 있는 최대를 늘려서 공간을 차지한다.
 
-![grow 1](./img/grow_1.PNG)
+![grow 1](C:\Users\beelz\Documents\TIL\Day 17\img\grow_1.PNG)
 
 만약에 1번이나 3번 `item` 에도 값을 준다면 비율에 맞는 공간을 차지 한다.
 
