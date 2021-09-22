@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/styles.css" />
+        <title>TIL | Today I Learned</title>
+    </head>
+    <body>
+        <header>
+            <div class="title">
+                <a href="/"><span class="title-text"></span></a>
+            </div>
+            <nav class="navbar">
+                <div class="navbar-item github-link">
+                    <a href="https://github.com/chmini/TIL" target="_blank"
+                        >GitHub<span
+                            ><svg
+                                class="
+                                    svg-inline--fa
+                                    fa-external-link-alt fa-w-16
+                                "
+                                aria-hidden="true"
+                                focusable="false"
+                                data-prefix="fas"
+                                data-icon="external-link-alt"
+                                role="img"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"
+                            >
+                                <path
+                                    fill="currentColor"
+                                    d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+                                ></path></svg></span
+                    ></a>
+                </div>
+                <div class="navbar-item menu-btn">
+                    <span class="line"></span><span class="line"></span
+                    ><span class="line"></span>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h1>Web</h1>
+            <h2>웹 브라우저</h2>
+            <p>
+                <code>.html</code>이라는 확장자를 가진 파일을 구동해서 보여주는
+                소프트웨어이다.
+            </p>
+            <p><strong>예시</strong></p>
+            <p>크롬, 엣지, 익스플로러, 사파리, 파이어폭스 ..</p>
+            <h3>역할</h3>
+            <ul>
+                <li><code>html</code>파일의 뷰어 역할을 한다.</li>
+                <li>
+                    사용자의 웹 서핑을 위한 다양한 부가 기능(즐겨찾기, 방문 기록
+                    저장)을 제공한다.
+                </li>
+                <li>
+                    개발자에게 필요한 웹 페이지 분석을 위한 개발 도구도
+                    제공한다.
+                </li>
+            </ul>
+            <p></p>
+            <h2>웹 특성</h2>
+            <h3>표준</h3>
+            <p>
+                html문서를 만들었는데 3가지 브라우저에서 열었을 때 다 다르게
+                보여진다.
+            </p>
+            <p>
+                만약 버튼이라는 특성마저 브라우저마다 다르게 만들어진다면 웹
+                개발은 정말 복잡해 질 것이다.
+            </p>
+            <p>그래서 표준을 만들어서<code>HTML 5</code> 로 규격화 하였다.</p>
+            <p>
+                이 표준을 준수하여 만들면 대부분의 브라우저에서 의도한 대로
+                보여지는 웹 페이지를 만들 수 있다.
+            </p>
+            <h3>접근성</h3>
+            <p>
+                모든 사용자들이 차별없이 브라우저를 통해 웹 정보를 쉽게 사용할
+                수 있도록 하는 것을 말한다.
+            </p>
+            <p>
+                일시적으로 키보드나 마우스를 사용할 수 없는 상황에서도 웹 사용이
+                가능하도록 하는 것이 접근성을 높이는 예로 볼 수 있다.
+            </p>
+            <p>크롬의 기본 첫 페이지를 살펴보았을 때</p>
+            <ul>
+                <li>검색어를 입력할 때 키보드를 통해서</li>
+                <code>tab</code>
+                키를 통해 다른 요소로 접근이 가능하게 하는 것
+                <li>
+                    키보드가 없거나 작동하지 않은 상황에서 마우스로 입력할 수
+                    있도록 하는 것
+                </li>
+            </ul>
+            <p>이런 특징들이 접근성을 높이는 방법이라고 할 수 있다.</p>
+            <h3>호환성 (크로스 브라우징)</h3>
+            <p>
+                웹 브라우저의 버전, 종류에 관계없는 접근이 가능하도록 하는 것을
+                말한다.
+            </p>
+            <p>
+                접근이 보여지는 것에 대한 의미가 아니라 정보와 기능 제공에
+                있어서 동일해야 한다는 의미를 말한다.
+            </p>
+            <p>웹 표준을 준수하면 브라우저 호환성을 확보할 수 있다.</p>
+            <p></p>
+            <h2>HTML</h2>
+            <p>
+                <strong>H</strong
+                >yper<strong>T</strong>ext<strong>M</strong>arkup<strong>L</strong>anguage
+            </p>
+            <h3>Hyper Text</h3>
+            <p>
+                다른 위치나 다른 웹 페이지로 이동할 수 있도록 만들어진 요소들을
+                의미한다.
+            </p>
+            <p>
+                지금은 웹 문서를 이루고 있는 요소 하나 하나가 하이퍼 텍스트로
+                의미가 확장되었다.
+            </p>
+            <h3>Markup Language</h3>
+            <p>
+                데이터를 그 자체로 어떤 방식으로 어디에 어떻게 표현할지 정의하고
+                구조를 나타내는 언어이다.
+            </p>
+            <p>Programming Language</p>
+            <p>
+                데이터를 가공을 하고<code>어떤 것을 해라</code> 라는 명령을
+                내리는 언어이다.
+            </p>
+            <h3>웹을 구성하는 언어</h3>
+            <figure>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>언어</th>
+                            <th>역할</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>
+                                웹의 뼈대를 만드는 언어이다.<br />여러 요소를
+                                정의한다.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>
+                                각 요소들을 색깔, 모양을 변경할 수 있다.<br />위치나
+                                여러가지를 바꿀 수 있다.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>동적인 요소를 담당한다.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </figure>
+            <p></p>
+            <h2>에디터</h2>
+            <p>언어의 문법에 맞추어 편집을 도와주는 편집기이다.</p>
+            <figure>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>구분</th>
+                            <th>종류</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>웹 에디터</td>
+                            <td>
+                                <code>repl.it</code><code>jsbin</code
+                                ><code>codepen</code>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>통합개발환경(IDE)</td>
+                            <td><code>vscode</code><code>intelliJ</code></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </figure>
+            <h3>VSCode</h3>
+            <h5>확장 프로그램</h5>
+            <ul>
+                <li>
+                    <p>auto rename tag</p>
+                    <p>
+                        태그 작성 시에 여는 태그와 닫는 태그를 동시에 수정이
+                        가능하게 해줌
+                    </p>
+                </li>
+                <li>
+                    <p>live server</p>
+                    <p>
+                        코드를 수정하고 저장을 하면 브라우저에 실시간으로
+                        반영되어 보여줌
+                    </p>
+                </li>
+                <li>
+                    <p>prettier</p>
+                    <p>문법에 맞게 자동으로 코드를 수정 보완해줌</p>
+                </li>
+            </ul>
+            <p></p>
+        </main>
+        <script src="../js/main.js"></script>
+    </body>
+</html>

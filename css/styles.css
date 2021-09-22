@@ -1,3 +1,5 @@
+@import "./reset.css";
+
 body {
     font-family: "Gowun Dodum", sans-serif;
     font-weight: 600;
@@ -10,8 +12,13 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    top: 0;
     padding: 1.2rem 1.7rem;
     border-bottom: 1px solid #ddd;
+}
+
+svg {
+    margin-left: 5px;
 }
 
 .title {
@@ -64,7 +71,7 @@ main {
     height: 200vh;
 
     display: grid;
-    grid-template-columns: 300px 1fr;
+    /* grid-template-columns: 300px 1fr; */
 }
 
 /* scrollbar */
