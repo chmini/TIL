@@ -1,0 +1,23 @@
+@keyframes reduceTitle {
+    0% {
+        content: "Today I Learned";
+    }
+    50% {
+        color: white;
+    }
+    100% {
+        content: "TIL";
+    }
+}
+
+@keyframes increaseTitle {
+    0% {
+        content: "TIL";
+    }
+    50% {
+        color: white;
+    }
+    100% {
+        content: "Today I Learned";
+    }
+}
