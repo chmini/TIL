@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "dev:pug": "yarn prettier --write ./views --tab-width 4",
+    "dev:prt": "yarn prettier --write src/views src/index.pug --tab-width 4",
+    "dev:pug": "pug src/views -o update/html",
     "dev:assets": "webpack --mode=development -w"
   },
   "repository": {
