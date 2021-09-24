@@ -26,18 +26,18 @@ eval("var menuBtn = document.querySelector(\".menu-btn\");\nmenuBtn.addEventList
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../scss/style.scss */ \"./src/scss/style.scss\");\n/* harmony import */ var _button_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./button.js */ \"./src/client/js/button.js\");\n/* harmony import */ var _button_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_button_js__WEBPACK_IMPORTED_MODULE_1__);\n/* scss */\n\n/* js */\n\n\n\n//# sourceURL=webpack://til/./src/client/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/style.scss */ \"./src/client/scss/style.scss\");\n/* harmony import */ var _button_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./button.js */ \"./src/client/js/button.js\");\n/* harmony import */ var _button_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_button_js__WEBPACK_IMPORTED_MODULE_1__);\n/* scss */\n\n/* js */\n\n\n\n//# sourceURL=webpack://til/./src/client/js/main.js?");
 
 /***/ }),
 
-/***/ "./src/scss/style.scss":
-/*!*****************************!*\
-  !*** ./src/scss/style.scss ***!
-  \*****************************/
+/***/ "./src/client/scss/style.scss":
+/*!************************************!*\
+  !*** ./src/client/scss/style.scss ***!
+  \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://til/./src/scss/style.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://til/./src/client/scss/style.scss?");
 
 /***/ })
 
