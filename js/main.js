@@ -1,5 +1,5 @@
-const menuBtn = document.querySelector(".menu-btn");
+/* scss */
+import "../scss/style.scss";
 
-menuBtn.addEventListener("click", () => {
-    menuBtn.classList.toggle("active");
-});
+/* js */
+import "./button.js";
