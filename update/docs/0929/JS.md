@@ -455,6 +455,14 @@ let array = ["hello", "world"];
 console.log(array.join(" ")); // hello world
 ```
 
+#### some
+
+배열 내 요소 중 단 하나라도 콜백 함수의 조건을 만족하는 요소가 있다면 `true` 를 반환하고 아니면 `false` 를 반환한다.
+
+#### every
+
+`some` 은 하나라도 만족해도 `true` 였지만 모든 요소가 콜백 함수의 조건을 만족할 때 `true` 를 반환하고 아니면 `false` 를 반환한다.
+
 ### loop
 
 배열에서 `loop` 는 3가지의 종류가 있다.
