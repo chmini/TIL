@@ -162,9 +162,8 @@ class CircleQueue {
             return;
         }
 
-        this.repo.push(data);
         this.rear = (this.rear + 1) % this.size;
-        this.size++;
+        this.repo[this.rear] = data;
     }
 
     dequeue() {
@@ -172,10 +171,9 @@ class CircleQueue {
             return;
         }
 
+        this.front = (this.front + 1) % this.size;
         const value = this.repo[this.front];
         delete this.repo[this.front];
-        this.front = (this.front + 1) % this.size;
-        this.size--;
         return value;
     }
 
@@ -184,7 +182,7 @@ class CircleQueue {
     }
 
     isFull() {
-        return this.repo.length === this.size;
+        return (this.rear + 1) % this.size === this.front;
     }
 }
 ```
