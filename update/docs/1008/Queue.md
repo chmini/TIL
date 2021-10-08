@@ -148,3 +148,44 @@ class PriorityQueue {
 
 원형 큐는 배열의 처음과 끝이 연결되어 있는 구조로 가정하여 사용한다.
 
+```js
+class CircleQueue {
+    constructor(size) {
+        this.size = size;
+        this.repo = [];
+        this.front = 0;
+        this.rear = 0;
+    }
+
+    enqueue(data) {
+        if (this.isFull()) {
+            return;
+        }
+
+        this.repo.push(data);
+        this.rear = (this.rear + 1) % this.size;
+        this.size++;
+    }
+
+    dequeue() {
+        if (this.isEmpty()) {
+            return;
+        }
+
+        const value = this.repo[this.front];
+        delete this.repo[this.front];
+        this.front = (this.front + 1) % this.size;
+        this.size--;
+        return value;
+    }
+
+    isEmpty() {
+        return this.repo.length === 0;
+    }
+
+    isFull() {
+        return this.repo.length === this.size;
+    }
+}
+```
+
