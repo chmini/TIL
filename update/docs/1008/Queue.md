@@ -158,12 +158,13 @@ class CircleQueue {
     }
 
     enqueue(data) {
-        if (this.isFull()) {
-            return;
+        if (this.isFull() || !data) {
+            return false;
         }
 
         this.rear = (this.rear + 1) % this.size;
         this.repo[this.rear] = data;
+        return true;
     }
 
     dequeue() {
@@ -178,7 +179,7 @@ class CircleQueue {
     }
 
     isEmpty() {
-        return this.repo.length === 0;
+        return this.rear === this.front;
     }
 
     isFull() {
