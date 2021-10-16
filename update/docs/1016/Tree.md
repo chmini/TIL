@@ -272,12 +272,12 @@ class BinarySearchTree {
                 /* find hr in left
                 const hr = this._maxNode(node.left);
                 node.value = hr.value;
-                this._removeNode(node.left, h.value);
+                node.lethis._removeNode(node.left, h.value);
                 */
                 /* find hr in right */
                 const hr = this._maxNode(node.right);
                 node.value = hr.value;
-                this._removeNode(node.right, hr.value);
+                node.right = this._removeNode(node.right, hr.value);
             }
         } else if (node.value > value) {
             node.left = this._removeNode(node.left, value);
