@@ -18,44 +18,44 @@
 
 아래 표를 배열처럼 이용하여 거품 정렬의 과정을 살펴보자.
 
-| 8   | 2   | 5   | 4   | 1   |
-| --- | --- | --- | --- | --- |
+| 8    | 2    | 5    | 4    | 1    |
+| ---- | ---- | ---- | ---- | ---- |
 
 `8` 과 `2` 를 비교하고 `2` 가 작으니 교환한다.
 
-| 2   | 8   | 5   | 4   | 1   |
-| --- | --- | --- | --- | --- |
+| 2    | 8    | 5    | 4    | 1    |
+| ---- | ---- | ---- | ---- | ---- |
 
 `8` 과 `5` 를 비교하고 `5` 가 작으니 교환한다.
 
-| 2   | 5   | 8   | 4   | 1   |
-| --- | --- | --- | --- | --- |
+| 2    | 5    | 8    | 4    | 1    |
+| ---- | ---- | ---- | ---- | ---- |
 
 `8` 과 `4` 를 비교하고 `4` 가 작으니 교환한다.
 
-| 2   | 5   | 4   | 8   | 1   |
-| --- | --- | --- | --- | --- |
+| 2    | 5    | 4    | 8    | 1    |
+| ---- | ---- | ---- | ---- | ---- |
 
 `8` 과 `1` 을 비교하고 `1` 이 작으니 교환한다.
 
 `8` 은 정렬이 된 데이터가 된다. 정렬되었다는 표시를 위해 한글로 표시한다.
 
-| 2   | 5   | 4   | 1   | 팔  |
-| --- | --- | --- | --- | --- |
+| 2    | 5    | 4    | 1    | 팔   |
+| ---- | ---- | ---- | ---- | ---- |
 
 `2` 와 `5` 을 비교하여 `2` 가 작으니 자리를 유지한다.
 
 `5` 와 `4` 를 비교하여 `4` 가 작으니 교환한다.
 
-| 2   | 4   | 5   | 1   | 팔  |
-| --- | --- | --- | --- | --- |
+| 2    | 4    | 5    | 1    | 팔   |
+| ---- | ---- | ---- | ---- | ---- |
 
 `5` 와 `1` 을 비교하여 `1` 이 작으니 교환한다.
 
 `5` 도 정렬된 데이터가 된다.
 
-| 2   | 4   | 1   | 오  | 팔  |
-| --- | --- | --- | --- | --- |
+| 2    | 4    | 1    | 오   | 팔   |
+| ---- | ---- | ---- | ---- | ---- |
 
 `2` 와 `4` 를 비교하여 `2` 작으니 자리를 유지한다.
 
@@ -63,13 +63,13 @@
 
 `4` 도 정렬된 데이터가 된다.
 
-| 2   | 1   | 사  | 오  | 팔  |
-| --- | --- | --- | --- | --- |
+| 2    | 1    | 사   | 오   | 팔   |
+| ---- | ---- | ---- | ---- | ---- |
 
 마지막으로 `2` 와 `1` 을 비교하여 `1` 이 작으니 자리를 바꾸어 정렬이 완료가 되는 것이다.
 
-| 일  | 이  | 사  | 오  | 팔  |
-| --- | --- | --- | --- | --- |
+| 일   | 이   | 사   | 오   | 팔   |
+| ---- | ---- | ---- | ---- | ---- |
 
 거품 정렬의 과정은 이와 같다.
 
@@ -107,8 +107,8 @@ export default bubbleSort;
 
 이것도 아래 표를 배열처럼 사용하여 같은 예시로 선택 정렬의 과정을 살펴보자.
 
-| 8   | 2   | 5   | 4   | 1   |
-| --- | --- | --- | --- | --- |
+| 8    | 2    | 5    | 4    | 1    |
+| ---- | ---- | ---- | ---- | ---- |
 
 기준 위치는 `index = 0` 이고 가장 작은 데이터는 `1` 이다.
 
@@ -116,32 +116,32 @@ export default bubbleSort;
 
 이제 `1` 은 정렬된 데이터로 한글로 표현한다.
 
-| 일  | 2   | 5   | 4   | 8   |
-| --- | --- | --- | --- | --- |
+| 일   | 2    | 5    | 4    | 8    |
+| ---- | ---- | ---- | ---- | ---- |
 
 다음 기준 위치는 `index = 1` 이고 가장 작은 데이터는 `2` 이다.
 
 기준 데이터와 가장 작은 데이터가 같아 자리는 유지되고 `2` 는 정렬된 데이터이다.
 
-| 일  | 이  | 5   | 4   | 8   |
-| --- | --- | --- | --- | --- |
+| 일   | 이   | 5    | 4    | 8    |
+| ---- | ---- | ---- | ---- | ---- |
 
 다음 기준 위치는 `index = 2` 이고 가장 작은 데이터는 `4` 이다.
 
 `index = 2` 의 데이터 `5` 와 `4` 를 교환한다.
 
-| 일  | 이  | 사  | 5   | 8   |
-| --- | --- | --- | --- | --- |
+| 일   | 이   | 사   | 5    | 8    |
+| ---- | ---- | ---- | ---- | ---- |
 
 다음 기준 위치는 `index = 3` 이고 기준 데이터가 가장 작은 데이터이므로 자리를 유지한다.
 
-| 일  | 이  | 사  | 오  | 8   |
-| --- | --- | --- | --- | --- |
+| 일   | 이   | 사   | 오   | 8    |
+| ---- | ---- | ---- | ---- | ---- |
 
 이제 마지막 하나만 남았기 때문에 정렬은 종료가 된다.
 
-| 일  | 이  | 사  | 오  | 팔  |
-| --- | --- | --- | --- | --- |
+| 일   | 이   | 사   | 오   | 팔   |
+| ---- | ---- | ---- | ---- | ---- |
 
 이것이 선택 정렬 과정이다.
 
@@ -156,7 +156,7 @@ const selectionSort = (array, order) => {
         idx = i;
         // 정렬 안 된 부분
         for (let j = i + 1; j < array.length; j++) {
-            // 기준
+			// 기준
             if (order(array[idx], array[j])) {
                 // 선택한 인덱스
                 idx = j;
@@ -180,30 +180,30 @@ export default selectionSort;
 
 표를 이용한 예시를 통해 삽입 정렬의 과정을 살펴보자.
 
-| 팔  | 2   | 5   | 4   | 1   |
-| --- | --- | --- | --- | --- |
+| 팔   | 2    | 5    | 4    | 1    |
+| ---- | ---- | ---- | ---- | ---- |
 
 처음 `index = 0` 인 데이터를 정렬된 부분을 그룹 A라 하고, 나머지를 정렬이 안 된 부분은 그룹 B로 나누고 시작한다.
 
 정렬 안 된 부분의 가장 왼쪽 데이터인 `2` 는 그룹 A에서 `8` 보다 작기 때문에 시프트 후 `8` 앞에 삽입한다.
 
-| 이  | 팔  | 5   | 4   | 1   |
-| --- | --- | --- | --- | --- |
+| 이   | 팔   | 5    | 4    | 1    |
+| ---- | ---- | ---- | ---- | ---- |
 
 그룹 B에서 가장 왼쪽인 `5` 는 그룹 A에서 `2` 보다 크고 `8` 보다 작기 때문에 시프트 후 `8` 앞에 삽입한다.
 
-| 이  | 오  | 팔  | 4   | 1   |
-| --- | --- | --- | --- | --- |
+| 이   | 오   | 팔   | 4    | 1    |
+| ---- | ---- | ---- | ---- | ---- |
 
 그룹 B에서 가장 왼쪽인 `4` 는 그룹 A에서 `2` 와 `5` 사이이기 때문에 `5` 이후의 값들을 시프트 후 `5` 앞에 삽입한다.
 
-| 이  | 사  | 오  | 팔  | 1   |
-| --- | --- | --- | --- | --- |
+| 이   | 사   | 오   | 팔   | 1    |
+| ---- | ---- | ---- | ---- | ---- |
 
 마지막 `1` 은 그룹 A에서 가장 작기 때문에 다 시프트하고 맨 앞에 삽입한다.
 
-| 일  | 이  | 사  | 오  | 팔  |
-| --- | --- | --- | --- | --- |
+| 일   | 이   | 사   | 오   | 팔   |
+| ---- | ---- | ---- | ---- | ---- |
 
 이러면 정렬이 완료된다.
 
@@ -259,24 +259,98 @@ const mergeSort = (array, order) => {
     // 분할 기준 인덱스
     const middleIndex = Math.floor(array.length / 2);
     // 분할
-    const leftArray = mergeSort(array.slice(0, middleIndex), order);
-    const rightArray = mergeSort(array.slice(middleIndex), order);
+    const left = mergeSort(array.slice(0, middleIndex), order);
+    const right = mergeSort(array.slice(middleIndex), order);
     // 병합
     let i = 0,
         j = 0,
         k = 0;
-    while (i < leftArray.length && j < rightArray.length) {
-        array[k++] = order(leftArray[i], rightArray[j])
-            ? rightArray[j++]
-            : leftArray[i++];
+    while (i < left.length && j < right.length) {
+        array[k++] = order(left[i], right[j]) ? right[j++] : left[i++];
     }
-    while (i < leftArray.length) array[k++] = leftArray[i++];
-    while (j < rightArray.length) array[k++] = rightArray[j++];
+    while (i < left.length) array[k++] = left[i++];
+    while (j < right.length) array[k++] = right[j++];
 
     return array;
 };
 
 export default mergeSort;
+```
+
+<br>
+
+## Quick Sort
+
+![quick](./img/quick.gif)
+
+퀵 정렬은 피봇이라 부르는 배열 중 하나의 원소를 기준으로 작으면 왼쪽으로 크면 오른쪽으로 분할하고 피봇의 위치를 고정시키며 정렬하는 방식이다.
+
+퀵 정렬도 병합 정렬처럼 2개의 부분문제로 분할하는데 차이점이 있다.
+
+병합은 부분문제의 크기가 문제의 1/2크기로 일정하지만 퀵은 부분문제의 크기가 일정하지 않다.
+
+
+
+퀵 정렬의 성능은 피봇에 좌우되는데 피봇이 가장 작은 숫자나 큰 숫자일 경우 분할 시에 한쪽으로 치우쳐지는 현상이 발생할 수 있는데 이런 경우가  반복 되면 성능이 떨어진다.
+
+일반적으로 피봇을 선정하는 방법으로는 랜덤으로 선정하거나 가장 왼쪽 숫자, 중간 숫자, 가장 오른쪽 숫자 중에서 중앙값을 피봇으로 선정한다.
+
+2번째 방법을 사용하여 피봇을 선정해보자.
+
+세 수에서 중앙값을 찾는 방법은 조건문을 통해서 비교해서 크기가 중간인 수를 찾을 수 있는데 XOR의 교환법칙과 결합법칙을 이용하여 구현해보려 한다.
+
+세 수를 각 A, B, C라고 할 때 먼저 최댓값과 최솟값을 찾아준다.
+
+그리고 이 다섯가지 값을 XOR해주면 중앙값이 나온다. 예를 들어 A가 최댓값이고 C가 최솟값이라고 할 때 중앙 값의 결과는 A ⊕ B ⊕ C ⊕ A ⊕ C 인데 이를 교환법칙과 결합법칙을 이용하여 바꿔주면 (A ⊕ C) ⊕ (A ⊕ C) ⊕ B 와 같다.
+
+(A ⊕ C) 를 서로 XOR하면 0이고 0과 B를 XOR하면 B이다.
+
+```js
+const median = (a, b, c) => {
+    const max = Math.max(Math.max(a, b), c);
+    const min = Math.min(Math.min(a, b), c);
+    return a ^ b ^ c ^ max ^ min;
+};
+```
+
+랜덤 수 10만 개의 퀵 정렬에서 위와 같은 피봇 선정은 마지막 원소를 피봇으로 선정하는 것 보다 느렸는데 아직 정확한 이유를 모르겠다.
+
+아래 코드는 마지막 원소를 피봇으로 선정하는 경우이다.
+
+```js
+import { swap } from "./sort.common-function.js";
+
+const quickSort = (
+    array,
+    order,
+    startIndex = 0,
+    endIndex = array.length - 1
+) => {
+    const pivot = array[endIndex];
+	// pivot의 위치 확정을 위한 변수
+    let pivotIndex = startIndex;
+    for (let i = startIndex; i < endIndex; i++) {
+        if (order(pivot, array[i])) {
+            // 시작 인덱스부터 pivot과의 크기 비교를 통해 위치를 한 칸씩 늘림
+            swap(array, pivotIndex, i);
+            pivotIndex++;
+        }
+    }
+    // pivot을 pivotIndex위치에 옮겨줌
+    swap(array, pivotIndex, endIndex);
+    // pivot기준 왼쪽 정렬
+    // pivotIndex - 1은 왼쪽의 마지막 인덱스인데 시작 인덱스와 같으면 종료
+    if (pivotIndex - 1 > startIndex) {
+        quickSort(array, order, startIndex, pivotIndex - 1);
+    }
+    // pivot기준 오른쪽 정렬
+    // pivotIndex - 1은 오른쪽의 첫번째 인덱스인데 끝 인덱스와 같으면 종료
+    if (pivotIndex + 1 < endIndex) {
+        quickSort(array, order, pivotIndex + 1, endIndex);
+    }
+};
+
+export default quickSort;
 ```
 
 <br>
@@ -290,9 +364,11 @@ import bubbleSort from "./sort.bubble.js";
 import selectionSort from "./sort.selection.js";
 import insertionSort from "./sort.insertion.js";
 import mergeSort from "./sort.merge.js";
+import quickSort from "./sort.quick.js";
 import { ascending, descending } from "./sort.common-function.js";
 
 const NUMBER_OF_DATA = 100000;
+
 const INITIAL_ARRAY = Array.from(
     { length: NUMBER_OF_DATA },
     () => Math.floor(Math.random() * NUMBER_OF_DATA) + 1
@@ -304,7 +380,13 @@ const getTime = (array, sort, order) => {
     return Date.now() - start;
 };
 
-const sortAlgorithm = [bubbleSort, selectionSort, insertionSort, mergeSort];
+const sortAlgorithm = [
+    bubbleSort,
+    selectionSort,
+    insertionSort,
+    mergeSort,
+    quickSort,
+];
 
 sortAlgorithm.forEach((sort) => {
     const array = [...INITIAL_ARRAY];
@@ -316,8 +398,10 @@ sortAlgorithm.forEach((sort) => {
 결과 값은 아래와 같다.
 
 ```
-bubbleSort : 24740ms
-selectionSort : 7214ms
-insertionSort : 3283ms
-mergeSort : 53ms
+bubbleSort : 31107ms
+selectionSort : 8047ms
+insertionSort : 3378ms
+mergeSort : 44ms
+quickSort : 37ms
 ```
+
